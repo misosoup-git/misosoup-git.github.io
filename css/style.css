@@ -11,7 +11,7 @@ body {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-}
+  }
 .top-background {
     position: fixed;
     z-index: 5000;
@@ -47,29 +47,29 @@ a {
   padding-left: 20;
   opacity: 1;
   z-index: 1;
-}
+  }
 a:hover {
   transition-duration: 0.6s;
   color:rgb(0, 0, 0);
-}
+  }
 a:not(:hover) {
   transition-duration: 0.3s;
   color:rgb(255, 255, 255)
-}
+  }
 .syoukai {
   position: relative;
   text-align: center;
   top:200px;
   font-weight:bold;
   color: #a0815a;
-}
+  }
 .subtitle {
   display: flex;
   z-index: 6000;
   justify-content: center;
   margin: 180;
   color:#7a664c;
-}
+  }
 @media screen and (max-width: 961px) {
   .top-background {
     position: fixed;

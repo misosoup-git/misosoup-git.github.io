@@ -61,12 +61,20 @@ a:not(:hover) {
   transition-duration: 0.3s;
   color:rgb(255, 255, 255)
   }
-.syoukai {
+.title {
   position: relative;
   text-align: center;
   top:200px;
   font-weight:bold;
   color: #a0815a;
+  }
+.title-hover:hover {
+  transition-duration:0.7s;
+  color:#5f7ea5;
+  }
+.title-hover:not(:hover) {
+  transition-duration:0.7s;
+  color:#a0815a;
   }
 .subtitle {
   display: flex;
@@ -75,7 +83,19 @@ a:not(:hover) {
   margin: 180;
   color:#7a664c;
   }
-@media screen and (max-width: 961px) {
+.profile-icon {
+  width:20em;
+  border-radius: 100%;
+  margin-left: 200px;
+  position: fixed;
+  top:400px;
+  }
+.profile-icon:hover {
+  transition-duration: 0.4s;
+  filter: blur(6px);
+}
+
+@media screen and (max-width: 1240px) {
   .top-background {
     position: fixed;
     z-index: 5000;

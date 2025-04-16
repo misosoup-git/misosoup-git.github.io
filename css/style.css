@@ -85,20 +85,22 @@ a:not(:hover) {
   white-space:nowrap;
   }
 .profile-icon {
-  width:20em;
+  width:250px;
   border-radius: 100%;
   margin-left: calc(-250px + 30vw);
   position: fixed;
   top:400px;
-  }
-.profile-icon:hover {
-  transition-duration: 0.4s;
-  filter: blur(6px);
+  border-width: 10px;
+  border-style: inset;
+  border-color:#ffd900;
 }
 .profileiconcenter {
   opacity: 0;
-  width:20em;
+  width:300px;
   border-radius: 100%;
+  border-width: 10px;
+  border-style: inset;
+  border-color:#ffd900;
 }
 .profileiconcenter-div {
   text-align: center;
